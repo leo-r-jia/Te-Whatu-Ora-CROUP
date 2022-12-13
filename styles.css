@@ -1,0 +1,416 @@
+.form-page .title i,
+.form-page li {
+    font-weight: 100
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: table;
+    margin: 0 auto;
+    width: 18cm;
+    padding-top: 10px
+}
+
+.form-large-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: .25rem .2rem .8rem;
+    list-style: none;
+    height: min-content;
+    background-color: #f5f5f5;
+    border-radius: .75rem
+}
+
+.form-container,
+.form-sub-container {
+    flex-direction: row;
+    height: min-content;
+    display: flex;
+    margin: 0
+}
+
+.form-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0
+}
+
+.form-sub-container {
+    padding: .4rem .6rem .6rem;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: #63636333 0 2px 8px 0;
+    border-radius: .5rem;
+    width: 95%
+}
+
+.form-sub-sub-container {
+    width: 100%;
+    border-radius: .25rem;
+    background-color: #f7f7f7;
+    box-shadow: none
+}
+
+.form-page .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: min-content;
+    padding: .65rem 0 .5rem 1rem
+}
+
+.form-page .footer-notes table,
+.form-page b,
+.form-page i,
+.form-page input[type=text],
+.form-page li,
+.form-page p,
+.form-page select,
+.form-page table,
+.form-page .heading4,
+.form-page .heading5,
+.form-page .doctor-symbol,
+.form-page .nurse-symbol,
+.form-page .nurse-p-symbol,
+.neuro-observations input[type=date] {
+    font-family: Segoe UI emoji, Segoe UI;
+    color: #043b6b;
+    font-size: .8rem;
+    margin: 0
+}
+
+.form-page .heading4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-page .heading5 {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.form-page .title-container p {
+    font-weight: 100;
+}
+
+.form-page .break {
+    width: 100%;
+    height: 1.2rem;
+    background: 0 0
+}
+
+.form-page .half-break {
+    width: 100%;
+    height: .8rem;
+    background: 0 0
+}
+
+.form-page .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: .6rem solid transparent;
+    border-right: .6rem solid transparent;
+    border-top: .55rem solid #dadada
+}
+
+.form-page .arrow-block {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    padding: .20rem;
+    margin: 0
+}
+
+.form-page .nurse-symbol {
+    color: #92c0ec;
+    padding-right: 1rem
+}
+
+.form-page .title-container p {
+    padding: 0
+}
+
+.form-page .doctor-symbol {
+    color: #ec9292
+}
+
+.form-page .nurse-p-symbol {
+    color: #855cc6;
+    padding-right: 1rem
+}
+
+.form-page .sub-title {
+    padding: 0 0 .15rem 0.05rem;
+    width: 100%
+}
+
+.form-page table {
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    width: 100%;
+    padding: .2rem
+}
+
+.form-page input[type=text] {
+    border: none;
+    border-bottom: .1rem solid #eee;
+    cursor: text;
+    width: 10rem;
+}
+
+.form-page input[type=text]:hover {
+    background-color: #eee;
+    transition: background-color .5s;
+    border-radius: .3rem;
+    outline-color: #eee
+}
+
+.form-page label {
+    display: block;
+    padding-left: 1.5rem;
+    text-indent: -1.4rem;
+}
+
+.form-page li {
+    width: 100%;
+    border-radius: .35rem;
+    padding: .1rem;
+    transition: background-color .5s;
+    text-align: -webkit-match-parent;
+    display: list-item
+}
+
+.form-page li:hover {
+    background-color: #eee
+}
+
+.form-page input,
+.form-page label,
+.form-page select {
+    cursor: pointer
+}
+
+.form-page input[type=checkbox],
+.form-page input[type=radio] {
+    accent-color: #043b6b
+}
+
+.form-page input[type=text]:focus {
+    outline-color: #043b6b;
+    transition: .5s
+}
+
+.form-page td,
+.form-page th {
+    vertical-align: top;
+}
+
+.form-page .footer-notes {
+    text-align: left;
+    width: 100%;
+    height: min-content;
+    padding: 0 .8rem;
+    margin: 0
+}
+
+.form-page .textarea {
+    border: none;
+    border-bottom: .1rem solid #eee;
+    display: block;
+    overflow: hidden;
+    resize: none;
+    outline-color: white;
+    padding: 0.1rem 0.2rem 0.1rem 0.3rem;
+}
+
+.form-page .textarea {
+    width: 39.75rem;
+}
+
+.form-page .red-flags .textarea[contenteditable]:empty::before {
+    content: "Intervention/BCB exit reason/other notes";
+    color: gray;
+    cursor: text;
+}
+
+.form-page .textarea:hover {
+    background-color: #eee;
+    border-radius: .3rem;
+    transition: .5s
+}
+
+.form-page .textarea:focus {
+    outline-color: #043b6b;
+    transition: .5s;
+}
+
+.nursing-assessment-table {
+    margin: .2rem;
+    padding: 0
+}
+
+.nursing-assessment-table th {
+    width: 40%;
+    text-align: left
+}
+
+.nursing-assessment-table td,
+.nursing-assessment-table th {
+    padding: 0;
+    margin: 0
+}
+
+.nursing-assessment-table p {
+    font-style: italic;
+    padding: .15rem 0 0 .5rem;
+    margin: 0
+}
+
+.nursing-assessment-table tr,
+.cat-table tr {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.cat-table {
+    border-collapse: collapse;
+    border-style: hidden
+}
+
+.cat-table th,
+.cat-table td {
+    border-left: 1px solid #f5f5f5;
+}
+
+.cat-table th {
+    width: 28%;
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.cat-table li {
+    width: 98%;
+}
+
+.cat b {
+    margin: 0.15rem 0.35rem 0 0;
+}
+
+.cat li input[type=radio]:checked+label {
+    background-color: #043b6b;
+    color: #fff
+}
+
+.cat li label {
+    padding: .05rem .3rem .1rem;
+}
+
+.side-header {
+    text-align: right;
+    font-weight: 100;
+}
+
+.red-flags {
+    padding: .2rem 0 0;
+    margin: 0
+}
+
+.red-flags li,
+.cat li {
+    display: inline;
+    width: auto !important
+}
+
+.red-flags ul,
+.cat ul {
+    padding: 0;
+    display: block;
+    margin-inline-end: 0;
+    padding-inline-start: 0
+}
+
+.red-flags ul,
+.cat ul {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0;
+    margin: 0
+}
+
+.cat li label,
+.red-flags li label {
+    text-indent: 0;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: .3rem;
+    white-space: nowrap;
+    margin: .1rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .5s;
+    font-family: Segoe UI emoji;
+    color: #043b6b
+}
+
+.red-flags li label {
+    padding: .1rem .3rem .2rem;
+    margin: .1rem;
+}
+
+.red-flags li:hover,
+.cat li:hover {
+    background-color: transparent;
+}
+
+.red-flags li label:hover,
+.cat li label:hover {
+    background-color: #dbdbdb
+}
+
+.red-flags .none input[type=checkbox]:checked+label {
+    background-color: #607c60
+}
+
+.red-flags li input[type=checkbox]:checked+label,
+.cat .severe input[type=radio]:checked+label {
+    background-color: #e27c7c86;
+    color: #fff
+}
+
+.red-flags li input[type=checkbox]:checked+label i {
+    color: #fff
+}
+
+.red-flags li:hover {
+    background: 0 0
+}
+
+.red-flags li input[type=checkbox],
+.cat li input[type=radio] {
+    display: absolute;
+    position: absolute;
+    opacity: 0
+}
+
+.red-flags i {
+    font-size: 0.75rem;
+}

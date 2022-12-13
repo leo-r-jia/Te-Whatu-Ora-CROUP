@@ -1,0 +1,346 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CROUP</title>
+</head>
+
+<body>
+    <div class="form-page">
+        <!-- Inclusion/Exclusion -->
+        <div class="form-large-container">
+            <div class="title-container">
+                <h4 class="heading4">
+                    Inclusion/Exclusion
+                </h4>
+                <h5 class="nurse-symbol">
+                    N
+                </h5>
+            </div>
+
+            <div class="form-container" style="width:47.5%;">
+                <div class="form-sub-container">
+                    <h5 class="heading5 sub-title">
+                        Inclusion Criteria
+                    </h5>
+                    <li>
+                        <label for="1-1"> <input type="checkbox" id="1-1">
+                            Trauma to the head &lt; 48 hrs</label>
+                    </li>
+                </div>
+                <div class="arrow-block"><span class="arrow-down"></span></div>
+                <div class="form-sub-container">
+                    <li>
+                        <label for="select-treatment-pathway"> <input type="checkbox" id="select-treatment-pathway">
+                            Select Treatment Pathway on Whiteboard</label>
+                    </li>
+                    <i class="indent-text">Enter actual time started.
+                        Data collected for the
+                        Ministry of Health.</i>
+                </div>
+            </div>
+
+            <div class="form-container" style="width:47.5%;">
+                <div class="form-sub-container">
+                    <h5 class="sub-title heading5">
+                        Exclusion Criteria
+                    </h5>
+                    <li>
+                        <label for="2-1"> <input type="checkbox" id="2-1">
+                            Age &lt; 15</label>
+                    </li>
+                    <li>
+                        <label for="2-2"> <input type="checkbox" id="2-2">
+                            Multi-trauma requiring team response <i>(e.g. RTC)</i></label>
+                    </li>
+                </div>
+                <div class="arrow-block"><span class="arrow-down"></span></div>
+                <div class="form-sub-container">
+                    <p>
+                        <b style="color: #e27c7c;">STOP!</b> Not suitable for this bundle. Continue usual nursing
+                        cares
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="break"></div>
+        <!-- Nursing Assessment -->
+        <div class="form-large-container">
+            <div class="title-container">
+                <h4 class="heading4">
+                    Nursing Assessment
+                </h4>
+                <h5 class="nurse-symbol">
+                    N
+                </h5>
+            </div>
+            <div class="form-sub-container">
+                <table class="nursing-assessment-table">
+                    <tr>
+                        <th>
+                            <li>
+                                <label for="3-1"> <input type="checkbox" name="" id="3-1">
+                                    History, examination, vital signs</label>
+                            </li>
+                        </th>
+                        <td>
+                            <p>Document on Nursing Assessment Record</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <li>
+                                <label for="3-2"> <input type="checkbox" name="" id="3-2">
+                                    PEWS: <input type="text" name="" id="" style="width: 5rem"></label>
+                            </li>
+                        </th>
+                    </tr>
+                    <tr style="border: none">
+                        <th>
+                            <li>
+                                <label for="3-3"> <input type="checkbox" name="" id="3-3">
+                                    COVID 19 concern</label>
+                            </li>
+                        </th>
+                        <td>
+                            <p>Performing Nasopharyngael swab in a child with croup could precipitate catastrophic
+                                airware collapse. Please check with senior clinician before performing.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="break"></div>
+        <!-- Croup Severity Assessment Tool -->
+        <div class="form-large-container">
+            <div class="title-container">
+                <h4 class="heading4">
+                    Croup Severity Assessment Tool
+                    <p>Default to higher severity if any doubt</p>
+                </h4>
+                <h5 class="nurse-symbol">
+                    N
+                </h5>
+            </div>
+            <div class="form-sub-container">
+                <table class="cat-table">
+                    <tr>
+                        <td></td>
+                        <th>Mild</th>
+                        <th>Moderate</th>
+                        <th style="color: #e27c7c;">Severe</th>
+                    </tr>
+                    <tr>
+                        <td class="side-header">Behaviour</td>
+                        <td>
+                            <li>
+                                <label for="mi-1"><input type="checkbox" id="mi-1"> Normal</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="mo-1"><input type="checkbox" id="mo-1"> Some/intermittent
+                                    irritability</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="se-1"><input type="checkbox" id="se-1"> Increasing irritability or
+                                    lethargy</label>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="side-header">Stridor</td>
+                        <td>
+                            <li>
+                                <label for="mi-2"><input type="checkbox" id="mi-2"> Only when active/upset</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="mo-2"><input type="checkbox" id="mo-2"> Some stridor at rest</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="se-2"><input type="checkbox" id="se-2"> Stridor at rest</label>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="side-header">Resporitory rate</td>
+                        <td>
+                            <li>
+                                <label for="mi-3"><input type="checkbox" id="mi-3"> Normal</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="mo-3"><input type="checkbox" id="mo-3"> &uarr; Increased</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="se-3"><input type="checkbox" id="se-3"> Markedly increased or
+                                    decreased</label>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="side-header">Accessory muscle use</td>
+                        <td>
+                            <li>
+                                <label for="mi-4"><input type="checkbox" id="mi-4"> None or minimal</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="mo-4-1"><input type="checkbox" id="mo-4-1"> Tracheal tug</label>
+                            </li>
+                            <li>
+                                <label for="mo-4-2"><input type="checkbox" id="mo-4-2"> Nasal flaring</label>
+                            </li>
+                            <li>
+                                <label for="mo-4-3"><input type="checkbox" id="mo-4-3"> Chest wall retraction -
+                                    moderate</label>
+                            </li>
+                        </td>
+                        <td>
+                            <li>
+                                <label for="se-4-1"><input type="checkbox" id="se-4-1"> Tracheal tug</label>
+                            </li>
+                            <li>
+                                <label for="se-4-2"><input type="checkbox" id="se-4-2"> Nasal flaring</label>
+                            </li>
+                            <li>
+                                <label for="se-4-3"><input type="checkbox" id="se-4-3"> Chest wall retraction -
+                                    severe</label>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr style="border-bottom:none">
+                        <td class="side-header">SPO<sub>2</sub></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <li>
+                                <label for="se-5"><input type="checkbox" id="se-5"> &lt; 94%</label>
+                            </li>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="half-break"></div>
+            <div class="form-sub-container cat">
+                <b>Initial assessment:</b>
+                <ul>
+                    <li>
+                        <input type="radio" name="initial-a" id="i-mi">
+                        <label for="i-mi">Mild</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="initial-a" id="i-mo">
+                        <label for="i-mo">Moderate</label>
+                    </li>
+                    <li class="severe">
+                        <input type="radio" name="initial-a" id="i-se">
+                        <label for="i-se">Severe</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="half-break"></div>
+            <div class="footer-notes">
+                <b>CAT 'Severe' or SPO<sub>2</sub>&lt;94% &rarr; Resus &rarr; Inform ED senior or Paeds team. Start
+                    severe pathway</b>
+            </div>
+        </div>
+        <div class="break"></div>
+        <!-- Red Flags -->
+        <div class="form-large-container">
+            <div class="title-container">
+                <h4 class="heading4">
+                    Red Flags
+                </h4>
+                <h5 class="nurse-symbol">
+                    N
+                </h5>
+            </div>
+            <div class="form-sub-container">
+                <div class="red-flags">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="rf-1">
+                            <label for="rf-1">Urticaria/facial or lip swelling <i>?Allergy/anaphylaxis</i></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-2">
+                            <label for="rf-2">Anaphylaxis in the past</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-3">
+                            <label for="rf-3">Known syndromes <i>e.g. Down syndrome</i></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-4">
+                            <label for="rf-4">Known airway issues <i>e.g. Laryngo-tracheo malacia</i></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-5">
+                            <label for="rf-5">History of choking <i>?Foreign body aspiration</i></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-6">
+                            <label for="rf-6">Sudden onset, no prodrome</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-7">
+                            <label for="rf-7">Toxic appearance/lethargic/mottled/reduced LOC</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="rf-8">
+                            <label for="rf-8">Not immunised <i>? Epiglottitis</i></label>
+                        </li>
+                        <li class="none">
+                            <input type="checkbox" id="no-red-flags">
+                            <label for="no-red-flags">None</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="half-break"></div>
+            <div class="form-container">
+                <div class="form-sub-container">
+                    <h5 class="heading5 sub-title" style="color: #e27c7c">
+                        Red Flags Present <span style="font-weight:lighter">(Any)</span>
+                    </h5>
+                    <p><b>Senior Clinician review ASAP</b><i>(SMO/Senior RMO/NP/CNS) </i><input type="text" name=""
+                            id="" placeholder="Clinician Name"></p>
+                    <li>
+                        <label for="continue-bcb"> <input type="radio" name="redflag-present-action" id="continue-bcb">
+                            Continue Best Care Bundle.</label>
+                    </li>
+                    <li>
+                        <label for="exit-bcb"> <input type="radio" name="redflag-present-action" id="exit-bcb">
+                            Exit Best Care Bundle.<i> Remove Bundle from TP column on the
+                                whiteboard.</i></label>
+                    </li>
+                    <p class="red-flags"><span class="textarea" role="textbox" contenteditable></span></p>
+                </div>
+                <div class="half-break"></div>
+                <div class="footer-notes">
+                    <p><b>No Red Flags:</b> Continue
+                        Best Care Bundle</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

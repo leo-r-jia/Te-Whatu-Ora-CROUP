@@ -55,10 +55,12 @@ body {
 }
 
 .form-sub-sub-container {
-    width: 100%;
-    border-radius: .25rem;
+    width: 18.5%;
+    height: min-content;
+    border-radius: .3rem;
     background-color: #f7f7f7;
-    box-shadow: none
+    box-shadow: none;
+    padding: 0.3rem;
 }
 
 .form-page .title-container {
@@ -73,9 +75,10 @@ body {
 .form-page .footer-notes table,
 .form-page b,
 .form-page i,
-.form-page input[type=text],
+.form-page input,
 .form-page li,
 .form-page p,
+.form-page label,
 .form-page select,
 .form-page table,
 .form-page .heading4,
@@ -170,20 +173,20 @@ body {
     border: none;
     border-bottom: .1rem solid #eee;
     cursor: text;
-    width: 10rem;
+    background-color: transparent;
 }
 
 .form-page input[type=text]:hover {
-    background-color: #eee;
+    background-color: #00000015;
     transition: background-color .5s;
     border-radius: .3rem;
-    outline-color: #eee
+    outline-color: transparent
 }
 
 .form-page label {
     display: block;
     padding-left: 1.5rem;
-    text-indent: -1.4rem;
+    text-indent: -1.1rem;
 }
 
 .form-page li {
@@ -259,6 +262,32 @@ body {
     transition: .5s;
 }
 
+.form-page input[type=time]:focus {
+    outline-color: #043b6b;
+    transition: .5s
+}
+
+.form-page input[type=time]:hover {
+    background-color: #e5e5e5;
+    transition: background-color .5s
+}
+
+.form-page input[type=time] {
+    width: 5.2rem;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-radius: .3rem;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    cursor: pointer
+}
+
+.form-page input[type=time]+label:hover {
+    cursor: text;
+}
+
 .nursing-assessment-table {
     margin: .2rem;
     padding: 0
@@ -302,12 +331,16 @@ body {
     padding-left: .5rem;
 }
 
+.cat-table td{
+    padding-right: 0.2rem;
+}
+
 .cat-table li {
     width: 98%;
 }
 
 .cat b {
-    margin: 0.15rem 0.35rem 0 0;
+    margin: 0.2rem 0.35rem 0rem 0;
 }
 
 .cat li input[type=radio]:checked+label {
@@ -316,7 +349,7 @@ body {
 }
 
 .cat li label {
-    padding: .05rem .3rem .1rem;
+    padding: 0 .3rem .1rem;
 }
 
 .side-header {
@@ -413,4 +446,74 @@ body {
 
 .red-flags i {
     font-size: 0.75rem;
+}
+
+.pathway th {
+    text-align: left;
+}
+
+.pathway tr {
+    border-bottom: 1px solid #eee;
+}
+
+.pathway label {
+    padding-left: 1.35rem;
+}
+
+.pathway li {
+    width: 97%;
+}
+
+.pathway-right-container {
+    width: 78%;
+    padding-left: 0.5rem;
+}
+
+.form-page hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.vl {
+    border-left: 0.2rem solid green;
+    margin-left: 0rem;
+    left: 50%;
+    width: min-content;
+    top: 0;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.formulary td,
+.formulary th {
+    text-align: left;
+    padding-left: .3rem;
+    border: 1px solid #d3d3d3
+}
+
+.footer th,
+.formulary th {
+    font-weight: 700
+}
+
+.formulary .sub-title-container {
+    padding: .2rem .2rem .35rem
+}
+
+.formulary .form-sub-container {
+    padding: .5rem
+}
+
+.formulary i {
+    padding: 0 .35rem;
+    font-size: .8rem;
+    font-weight: 200
+}
+
+.formulary .notes {
+    font-style: italic
 }

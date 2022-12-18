@@ -17,7 +17,7 @@
                     Inclusion/Exclusion
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-container" style="width:47.5%;">
@@ -27,7 +27,11 @@
                     </h5>
                     <li>
                         <label for="1-1"> <input type="checkbox" id="1-1">
-                            Trauma to the head &lt; 48 hrs</label>
+                            Age &gt; 6 months
+                    </li>
+                    <li>
+                        <label for="1-2"> <input type="checkbox" id="1-2">
+                            Stridor, barking cough, and/or hoarse voice
                     </li>
                 </div>
                 <div class="arrow-block"><span class="arrow-down"></span></div>
@@ -49,11 +53,7 @@
                     </h5>
                     <li>
                         <label for="2-1"> <input type="checkbox" id="2-1">
-                            Age &lt; 15</label>
-                    </li>
-                    <li>
-                        <label for="2-2"> <input type="checkbox" id="2-2">
-                            Multi-trauma requiring team response <i>(e.g. RTC)</i></label>
+                            Age &lt; 6 months</label>
                     </li>
                 </div>
                 <div class="arrow-block"><span class="arrow-down"></span></div>
@@ -74,7 +74,7 @@
                     Nursing Assessment
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">
@@ -120,7 +120,7 @@
                     <p>Default to higher severity if any doubt</p>
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">
@@ -264,7 +264,7 @@
                     Red Flags
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">
@@ -322,11 +322,6 @@
                             Continue Best Care Bundle</label>
                     </li>
                     <li>
-                        <label for="monitored-resus"> <input type="radio" name="redflag-present-action"
-                                id="monitored-resus">
-                            Move to monitored/Resus</label>
-                    </li>
-                    <li>
                         <label for="exit-bcb"> <input type="radio" name="redflag-present-action" id="exit-bcb">
                             Exit Best Care Bundle<i> Remove Bundle from TP column on the
                                 whiteboard</i></label>
@@ -342,19 +337,19 @@
         </div>
         <div class="break"></div>
         <!-- Mild Pathway -->
-        <div class="form-large-container">
+        <div class="form-large-container" style="background-color:rgb(218, 228, 218)">
             <div class="title-container">
                 <h4 class="heading4">
                     Mild Pathway
                     <p>
-                        &#x2022;<b> Calming/comforting measures. Avoid distressing interventions</b>
+                        &#x2022; Minimise distressing interventions. Institute calming measures for all patients
                         <br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet
                         <br>&#x2022; Calculate Croup severity using assessment tool above and select management option
                         <br>&#x2022; Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review
                     </p>
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    <span class="hovertext" data-hover="Nurse to fill in">&#9679;</span>
                 </h5>
             </div>
             <div class="form-sub-container">
@@ -394,9 +389,7 @@
                 <div class="pathway-right-container">
                     <table class="pathway">
                         <tr>
-                            <th colspan="3">Croup Severity <span style="font-weight: lighter"> as per severity
-                                    assessment
-                                    tool</span></th>
+                            <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
@@ -464,9 +457,7 @@
                 <div class="pathway-right-container">
                     <table class="pathway">
                         <tr>
-                            <th colspan="3">Croup Severity <span style="font-weight: lighter"> as per severity
-                                    assessment
-                                    tool</span></th>
+                            <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
@@ -537,9 +528,9 @@
         </div>
         <div class="break"></div>
         <!-- Moderate Pathway -->
-        <div class="form-large-container">
+        <div class="form-large-container" style="background-color:#fef6e8">
             <div class="title-container">
-                <h4 class="heading4">
+                <h4 class="heading4" style="color: rgb(230, 162, 36)">
                     Moderate Pathway
                     <p>
                         &#x2022; All patients on the moderate pathway should get dexamthasone, unless already given
@@ -550,11 +541,11 @@
                     </p>
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
+                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
                     Start
                 </h5>
                 <div class="form-sub-sub-container">
@@ -580,7 +571,7 @@
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
+                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
                     30 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container" style="width: 18.5%">
@@ -590,9 +581,7 @@
                 <div style="width: 78%; padding-left: 0.5rem">
                     <table class="pathway">
                         <tr>
-                            <th colspan="3">Croup Severity <span style="font-weight: lighter"> as per severity
-                                    assessment
-                                    tool</span></th>
+                            <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
@@ -646,7 +635,7 @@
             <!-- Moderate 60 mins -->
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
+                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
                     60 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
@@ -656,9 +645,7 @@
                 <div style="width: 78%; padding-left: 0.5rem">
                     <table class="pathway">
                         <tr>
-                            <th colspan="3">Croup Severity <span style="font-weight: lighter"> as per severity
-                                    assessment
-                                    tool</span></th>
+                            <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
@@ -728,9 +715,9 @@
             </div>
         </div>
         <div class="break"></div>
-        <div class="form-large-container">
+        <div class="form-large-container" style="background-color:rgb(255, 238, 238)">
             <div class="title-container">
-                <h4 class="heading4">
+                <h4 class="heading4" style="color:#e27c7c">
                     Severe Pathway
                     <p>
                         &#x2022; Minimise distressing interventions. Institute calming measures for all patients
@@ -740,7 +727,7 @@
                     </p>
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">
@@ -787,7 +774,7 @@
                     Discharge/Admission
                 </h4>
                 <h5 class="nurse-symbol">
-                    N
+                    &#9679;
                 </h5>
             </div>
             <div class="form-sub-container">

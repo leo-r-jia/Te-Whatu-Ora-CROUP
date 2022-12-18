@@ -246,7 +246,7 @@ body {
 }
 
 .form-page .red-flags .textarea[contenteditable]:empty::before {
-    content: "Intervention/BCB exit reason/other notes";
+    content: "Intervention/move to monitored or Resus/BCB exit reason/other notes";
     color: gray;
     cursor: text;
 }
@@ -331,7 +331,7 @@ body {
     padding-left: .5rem;
 }
 
-.cat-table td{
+.cat-table td {
     padding-right: 0.2rem;
 }
 
@@ -516,4 +516,34 @@ body {
 
 .formulary .notes {
     font-style: italic
+}
+
+.hovertext {
+    position: relative;
+    font-family: Segoe UI emoji;
+    font-weight: 100;
+    cursor: help;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: #0000003d;
+    color: #fff;
+    padding: 0 0.2rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    transition: opacity 0.5s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -90%;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
 }

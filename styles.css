@@ -465,7 +465,7 @@ body {
 /* Pathways syles */
 
 .mild-path {
-    color: #2d552d !important;
+    color: #2b702b !important;
 }
 
 .mod-path {
@@ -500,16 +500,6 @@ body {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
-}
-
-.vl {
-    border-left: 0.2rem solid green;
-    margin-left: 0rem;
-    left: 50%;
-    width: min-content;
-    top: 0;
-    height: 2rem;
-    border-radius: 2rem;
 }
 
 .formulary td,

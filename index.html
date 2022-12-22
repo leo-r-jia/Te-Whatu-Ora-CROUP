@@ -84,8 +84,8 @@
                 <table class="cat-table">
                     <tr>
                         <td></td>
-                        <th>Mild</th>
-                        <th>Moderate</th>
+                        <th class="mild-path">Mild</th>
+                        <th class="mod-path">Moderate</th>
                         <th class="red-text">Severe</th>
                     </tr>
                     <tr>
@@ -176,18 +176,18 @@
             <div class="form-sub-container">
                 <ul class="red-flags">
                     <li><input type="checkbox" id="rf-1"><label for="rf-1">Urticaria/facial or lip
-                            swelling<i>?Allergy/anaphylaxis</i></label></li>
+                            swelling <i>?Allergy/anaphylaxis</i></label></li>
                     <li><input type="checkbox" id="rf-2"><label for="rf-2">Anaphylaxis in the past</label></li>
-                    <li><input type="checkbox" id="rf-3"><label for="rf-3">Known syndromes<i>e.g. Down
+                    <li><input type="checkbox" id="rf-3"><label for="rf-3">Known syndromes <i>e.g. Down
                                 syndrome</i></label></li>
-                    <li><input type="checkbox" id="rf-4"><label for="rf-4">Known airway issues<i>e.g. Laryngo-tracheo
+                    <li><input type="checkbox" id="rf-4"><label for="rf-4">Known airway issues <i>e.g. Laryngo-tracheo
                                 malacia</i></label></li>
-                    <li><input type="checkbox" id="rf-5"><label for="rf-5">History of choking<i>?Foreign body
+                    <li><input type="checkbox" id="rf-5"><label for="rf-5">History of choking <i>?Foreign body
                                 aspiration</i></label></li>
                     <li><input type="checkbox" id="rf-6"><label for="rf-6">Sudden onset, no prodrome</label></li>
                     <li><input type="checkbox" id="rf-7"><label for="rf-7">Toxic appearance/lethargic/mottled/reduced
                             LOC</label></li>
-                    <li><input type="checkbox" id="rf-8"><label for="rf-8">Not immunised<i>? Epiglottitis</i></label>
+                    <li><input type="checkbox" id="rf-8"><label for="rf-8">Not immunised <i>? Epiglottitis</i></label>
                     </li>
                     <li class="none"><input type="checkbox" id="no-red-flags"><label for="no-red-flags">None</label>
                     </li>
@@ -360,7 +360,7 @@
         <div class="form-large-container" style="background-color:#fef6e8">
             <div class="title-container">
                 <h4 class="heading4 mod-path">Moderate Pathway <span class="nurse-symbol role">N</span>
-                    <p>&#x2022; All patients on the moderate pathway should get dexamthasone, unless already
+                    <p>&#x2022; All patients on the moderate pathway should get dexamethasone, unless already
                         given<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet<br>&#x2022;
                         Calculate Croup severity using assessment tool above and select management option<br>&#x2022;
                         Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review</p>
@@ -501,7 +501,7 @@
                 <h4 class="heading4 red-text">Severe Pathway <span class="nurse-p-symbol role">CNS/NP</span> <span
                         class="doctor-symbol">Dr</span>
                     <p>&#x2022; Minimise distressing interventions. Institute calming measures for all
-                        patients<br>&#x2022; High flow O<sub>2</sub>& nebulised adrenaline are AGP's<br>&#x2022; Perform
+                        patients<br>&#x2022; High flow O<sub>2</sub> & nebulised adrenaline are AGP's<br>&#x2022; Perform
                         in resus with negative pressure and full PPE<br>&#x2022; COVID PCR testing can add to distress.
                         Check with senior doctor before swabbing</p>
                 </h4>
@@ -509,10 +509,10 @@
             <div class="form-sub-container">
                 <li><label for="se10"><input type="checkbox" name="" id="se10"> 1:1000 Adrenaline nebulised
                         0.5ml/kg<br><i>(max 5mg or 5ml). Repeat Q10 min as per medical staff</i></label></li>
-                <li><label for="se11"><input type="checkbox" name="" id="se11"> Oral Dexamthasone 0.6mg/kg<i>(max
+                <li><label for="se11"><input type="checkbox" name="" id="se11"> Oral Dexamthasone 0.6mg/kg <i>(max
                             12mg)</i></label></li>
-                <li><label for="se12"><input type="checkbox" name="" id="se12"> High flow O<sub>2</sub><i>Aim
-                            SPO<sub>2</sub>> 94-98%</i></label></li>
+                <li><label for="se12"><input type="checkbox" name="" id="se12"> High flow O<sub>2</sub> <i>Aim
+                            SPO<sub>2</sub> &gt; 94-98%</i></label></li>
                 <table>
                     <tr>
                         <td>If severe stridor recurs after treatment &nbsp;&nbsp;&nbsp;&nbsp;&rarr;</td>
@@ -542,7 +542,7 @@
                 <h5 class="heading5 sub-title">Admission Criteria <i style="font-weight:lighter">Any of</i></h5>
                 <li><label for="200"><input type="checkbox" name="" id="200"> Ongoing moderate symptoms &gt; 1 hr after
                         Dexamathasone</label></li>
-                <li><label for="201"><input type="checkbox" name="" id="201"> Ongoing O<sub>2</sub>requirement -
+                <li><label for="201"><input type="checkbox" name="" id="201"> Ongoing O<sub>2</sub> requirement -
                         SPO<sub>2</sub>&lt; 94%</label></li>
                 <li><label for="202"><input type="checkbox" name="" id="202"> Significant co-morbidities</label></li>
                 <li><label for="203"><input type="checkbox" name="" id="203"> &gt;1 doses of Adrenaline</label></li>
@@ -559,8 +559,7 @@
             <div class="half-break"></div>
             <div class="form-sub-container">
                 <h5 class="heading5 sub-title">Discharge Criteria <i style="font-weight:lighter">Must meet all</i></h5>
-                <li><label for="210"><input type="checkbox" name="" id="210"> Senior doctor/Paed team has reviewed
-                        patient and agrees with discharge plan</label></li>
+                <li><label for="210"><input type="checkbox" name="" id="210"> Senior doctor/Paed team agrees with discharge plan</label></li>
                 <li><label for="211"><input type="checkbox" name="" id="211"> No Rx received: Mild Croup
                         throughout</label></li>
                 <li><label for="212"><input type="checkbox" name="" id="212"> Dexamethasone given: Mild symptoms &gt;
@@ -579,13 +578,9 @@
                         affirmed - contact information provided</label></li>
                 <li><label for="222"><input type="checkbox" name="" id="222"> COVID-19: Consider NPA prior to discharge
                         to tailor public health and isolation requirements</label></li>
-            </div>
-            <div class="half-break"></div>
-            <div class="form-sub-container">
-                <h5 class="heading5 sub-title">Follow Up<i style="font-weight:lighter"> - document this in the EDS</i>
-                </h5><i>See EDS proforma (link from EDS). Already pre-populated patient advice / information</i>
-                <li><label for="230"><input type="checkbox" name="" id="230"> GP</label></li>
-                <li><label for="231"><input type="checkbox" name="" id="231"> Follow up documented in EDS</label></li>
+                <li><label for="223"><input type="checkbox" name="" id="223"> GP</label></li>
+                <li><label for="224"><input type="checkbox" name="" id="224"> Follow up documented in EDS</label></li>
+        
             </div>
         </div>
         <div class="break"></div>
@@ -632,7 +627,7 @@
                         <td>1mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>
-                        <td class="notes">Made up to 5 mL with 0.9% Saline. AGP. Perform in negative pressure room</td>
+                        <td class="notes">Made up to 5 mL with 0.9% sodium chloride. AGP. Perform in negative pressure room</td>
                     </tr>
                 </table>
             </div>

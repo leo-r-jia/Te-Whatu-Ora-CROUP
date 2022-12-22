@@ -124,7 +124,7 @@ body {
     height: 0;
     border-left: .6rem solid transparent;
     border-right: .6rem solid transparent;
-    border-top: .55rem solid #dadada
+    border-top: .55rem solid #00000029
 }
 
 .form-page .arrow-block {
@@ -136,22 +136,27 @@ body {
     margin: 0
 }
 
-.form-page .nurse-symbol {
-    color: #92c0ec;
-    padding-right: 1rem
-}
-
 .form-page .title-container p {
     padding: 0
 }
 
+.form-page .role {
+    padding-left: .25rem
+}
+
+.form-page .nurse-symbol {
+    color: #92c0ec;
+    font-size: .7rem
+}
+
 .form-page .doctor-symbol {
-    color: #ec9292
+    color: #ec9292;
+    font-size: .7rem
 }
 
 .form-page .nurse-p-symbol {
     color: #855cc6;
-    padding-right: 1rem
+    font-size: .7rem
 }
 
 .form-page .sub-title {
@@ -286,6 +291,15 @@ body {
 
 .form-page input[type=time]+label:hover {
     cursor: text;
+}
+
+.form-page .red-text {
+    color: #e27c7c
+}
+
+.form-page .indent-text {
+    margin-left: 1.55rem;
+    display: inline-block
 }
 
 .nursing-assessment-table {
@@ -446,6 +460,16 @@ body {
 
 .red-flags i {
     font-size: 0.75rem;
+}
+
+/* Pathways syles */
+
+.mild-path {
+    color: #2d552d !important;
+}
+
+.mod-path {
+    color: #e6a224 !important;
 }
 
 .pathway th {

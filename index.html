@@ -3,104 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <title>CROUP</title>
 </head>
 
 <body>
     <div class="form-page">
-        <!-- Inclusion/Exclusion -->
+        <!-- Inclusion/Exclusion Container -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Inclusion/Exclusion
-                </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
+                <h4 class="heading4">Inclusion/Exclusion <span class="nurse-symbol role">N</span></h4>
             </div>
-            <div class="form-container" style="width:47.5%;">
+            <div class="form-container" style="width:47.5%">
                 <div class="form-sub-container">
-                    <h5 class="heading5 sub-title">
-                        Inclusion Criteria
-                    </h5>
-                    <li>
-                        <label for="1-1"> <input type="checkbox" id="1-1">
-                            Age &gt; 6 months
-                    </li>
-                    <li>
-                        <label for="1-2"> <input type="checkbox" id="1-2">
-                            Stridor, barking cough, and/or hoarse voice
+                    <h5 class="heading5 sub-title">Inclusion Criteria</h5>
+                    <li><label for="1-1"><input type="checkbox" id="1-1"> Age &gt; 6 months</li>
+                    <li><label for="1-2"><input type="checkbox" id="1-2"> Stridor, barking cough, and/or hoarse voice
                     </li>
                 </div>
                 <div class="arrow-block"><span class="arrow-down"></span></div>
                 <div class="form-sub-container">
-                    <li>
-                        <label for="select-treatment-pathway"> <input type="checkbox" id="select-treatment-pathway">
-                            Select Treatment Pathway on Whiteboard</label>
-                    </li>
-                    <i class="indent-text">Enter actual time started.
-                        Data collected for the
-                        Ministry of Health.</i>
+                    <li><label for="select-treatment-pathway"><input type="checkbox" id="select-treatment-pathway">
+                            Select Treatment Pathway on Whiteboard</label></li><i class="indent-text">Enter actual time
+                        started. Data collected for the Ministry of Health.</i>
                 </div>
             </div>
-
-            <div class="form-container" style="width:47.5%;">
+            <div class="form-container" style="width:47.5%">
                 <div class="form-sub-container">
-                    <h5 class="sub-title heading5">
-                        Exclusion Criteria
-                    </h5>
-                    <li>
-                        <label for="2-1"> <input type="checkbox" id="2-1">
-                            Age &lt; 6 months</label>
-                    </li>
+                    <h5 class="sub-title heading5">Exclusion Criteria</h5>
+                    <li><label for="2-1"><input type="checkbox" id="2-1"> Age &lt; 6 months</label></li>
                 </div>
                 <div class="arrow-block"><span class="arrow-down"></span></div>
                 <div class="form-sub-container">
-                    <p>
-                        <b style="color: #e27c7c;">STOP!</b> Not suitable for this bundle. Continue usual nursing
-                        cares
-                    </p>
+                    <p><b class="red-text">STOP! </b>Not suitable for this bundle. Continue usual nursing cares</p>
                 </div>
             </div>
         </div>
-
         <div class="break"></div>
-        <!-- Nursing Assessment -->
+        <!-- Nursing Assessment Container -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Nursing Assessment
-                </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
+                <h4 class="heading4">Nursing Assessment <span class="nurse-symbol role">N</span></h4>
             </div>
             <div class="form-sub-container">
                 <table class="nursing-assessment-table">
                     <tr>
                         <th>
-                            <li>
-                                <label for="3-1"> <input type="checkbox" name="" id="3-1">
-                                    History, examination, vital signs</label>
-                            </li>
+                            <li><label for="3-1"><input type="checkbox" name="" id="3-1"> History, examination, vital
+                                    signs</label></li>
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            <li>
-                                <label for="3-2"> <input type="checkbox" name="" id="3-2">
-                                    PEWS: <input type="text" name="" id="" style="width: 5rem"></label>
-                            </li>
+                            <li><label for="3-2"><input type="checkbox" name="" id="3-2"> PEWS: <input type="text"
+                                        name="" id="" style="width:5rem"></label></li>
                         </th>
                     </tr>
-                    <tr style="border: none">
+                    <tr style="border:none">
                         <th>
-                            <li>
-                                <label for="3-3"> <input type="checkbox" name="" id="3-3">
-                                    COVID 19 concern</label>
-                            </li>
+                            <li><label for="3-3"><input type="checkbox" name="" id="3-3"> COVID 19 concern</label></li>
                         </th>
                         <td>
                             <p>Performing Nasopharyngael swab in a child with croup could precipitate catastrophic
@@ -110,18 +72,13 @@
                 </table>
             </div>
         </div>
-
         <div class="break"></div>
         <!-- Croup Severity Assessment Tool -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Croup Severity Assessment Tool
+                <h4 class="heading4">Croup Severity Assessment Tool <span class="nurse-symbol role">N</span>
                     <p>Default to higher severity if any doubt</p>
                 </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
             </div>
             <div class="form-sub-container">
                 <table class="cat-table">
@@ -129,95 +86,63 @@
                         <td></td>
                         <th>Mild</th>
                         <th>Moderate</th>
-                        <th style="color: #e27c7c;">Severe</th>
+                        <th class="red-text">Severe</th>
                     </tr>
                     <tr>
                         <td class="side-header">Behaviour</td>
                         <td>
-                            <li>
-                                <label for="mi-1"><input type="checkbox" id="mi-1"> Normal</label>
-                            </li>
+                            <li><label for="mi-1"><input type="checkbox" id="mi-1"> Normal</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="mo-1"><input type="checkbox" id="mo-1"> Some/intermittent
-                                    irritability</label>
-                            </li>
+                            <li><label for="mo-1"><input type="checkbox" id="mo-1"> Some/intermittent
+                                    irritability</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="se-1"><input type="checkbox" id="se-1"> Increasing irritability or
-                                    lethargy</label>
-                            </li>
+                            <li><label for="se-1"><input type="checkbox" id="se-1"> Increasing irritability or
+                                    lethargy</label></li>
                         </td>
                     </tr>
                     <tr>
                         <td class="side-header">Stridor</td>
                         <td>
-                            <li>
-                                <label for="mi-2"><input type="checkbox" id="mi-2"> Only when active/upset</label>
-                            </li>
+                            <li><label for="mi-2"><input type="checkbox" id="mi-2"> Only when active/upset</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="mo-2"><input type="checkbox" id="mo-2"> Some stridor at rest</label>
-                            </li>
+                            <li><label for="mo-2"><input type="checkbox" id="mo-2"> Some stridor at rest</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="se-2"><input type="checkbox" id="se-2"> Stridor at rest</label>
-                            </li>
+                            <li><label for="se-2"><input type="checkbox" id="se-2"> Stridor at rest</label></li>
                         </td>
                     </tr>
                     <tr>
                         <td class="side-header">Resporitory rate</td>
                         <td>
-                            <li>
-                                <label for="mi-3"><input type="checkbox" id="mi-3"> Normal</label>
-                            </li>
+                            <li><label for="mi-3"><input type="checkbox" id="mi-3"> Normal</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="mo-3"><input type="checkbox" id="mo-3"> &uarr; Increased</label>
-                            </li>
+                            <li><label for="mo-3"><input type="checkbox" id="mo-3"> &uarr; Increased</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="se-3"><input type="checkbox" id="se-3"> Markedly increased or
-                                    decreased</label>
-                            </li>
+                            <li><label for="se-3"><input type="checkbox" id="se-3"> Markedly increased or
+                                    decreased</label></li>
                         </td>
                     </tr>
                     <tr>
                         <td class="side-header">Accessory muscle use</td>
                         <td>
-                            <li>
-                                <label for="mi-4"><input type="checkbox" id="mi-4"> None or minimal</label>
-                            </li>
+                            <li><label for="mi-4"><input type="checkbox" id="mi-4"> None or minimal</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="mo-4-1"><input type="checkbox" id="mo-4-1"> Tracheal tug</label>
-                            </li>
-                            <li>
-                                <label for="mo-4-2"><input type="checkbox" id="mo-4-2"> Nasal flaring</label>
-                            </li>
-                            <li>
-                                <label for="mo-4-3"><input type="checkbox" id="mo-4-3"> Chest wall retraction -
-                                    moderate</label>
-                            </li>
+                            <li><label for="mo-4-1"><input type="checkbox" id="mo-4-1"> Tracheal tug</label></li>
+                            <li><label for="mo-4-2"><input type="checkbox" id="mo-4-2"> Nasal flaring</label></li>
+                            <li><label for="mo-4-3"><input type="checkbox" id="mo-4-3"> Chest wall retraction -
+                                    moderate</label></li>
                         </td>
                         <td>
-                            <li>
-                                <label for="se-4-1"><input type="checkbox" id="se-4-1"> Tracheal tug</label>
-                            </li>
-                            <li>
-                                <label for="se-4-2"><input type="checkbox" id="se-4-2"> Nasal flaring</label>
-                            </li>
-                            <li>
-                                <label for="se-4-3"><input type="checkbox" id="se-4-3"> Chest wall retraction -
-                                    severe</label>
-                            </li>
+                            <li><label for="se-4-1"><input type="checkbox" id="se-4-1"> Tracheal tug</label></li>
+                            <li><label for="se-4-2"><input type="checkbox" id="se-4-2"> Nasal flaring</label></li>
+                            <li><label for="se-4-3"><input type="checkbox" id="se-4-3"> Chest wall retraction -
+                                    severe</label></li>
                         </td>
                     </tr>
                     <tr style="border-bottom:none">
@@ -225,166 +150,99 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <li>
-                                <label for="se-5"><input type="checkbox" id="se-5"> &lt; 94%</label>
-                            </li>
+                            <li><label for="se-5"><input type="checkbox" id="se-5"> &lt; 94%</label></li>
                         </td>
                     </tr>
                 </table>
             </div>
             <div class="half-break"></div>
-            <div class="form-sub-container cat">
-                <b>Initial assessment:</b>
+            <div class="form-sub-container cat"><b>Initial assessment:</b>
                 <ul>
-                    <li>
-                        <input type="radio" name="initial-a" id="i-mi">
-                        <label for="i-mi">Mild</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="initial-a" id="i-mo">
-                        <label for="i-mo">Moderate</label>
-                    </li>
-                    <li class="severe">
-                        <input type="radio" name="initial-a" id="i-se">
-                        <label for="i-se">Severe</label>
+                    <li><input type="radio" name="initial-a" id="i-mi"><label for="i-mi">Mild</label></li>
+                    <li><input type="radio" name="initial-a" id="i-mo"><label for="i-mo">Moderate</label></li>
+                    <li class="severe"><input type="radio" name="initial-a" id="i-se"><label for="i-se">Severe</label>
                     </li>
                 </ul>
             </div>
             <div class="half-break"></div>
-            <div class="footer-notes">
-                <b>CAT 'Severe' or SPO<sub>2</sub>&lt;94% &rarr; Resus &rarr; Inform ED senior or Paeds team. Start
-                    severe pathway</b>
-            </div>
+            <div class="footer-notes"><b>CAT 'Severe' or SPO<sub>2</sub>&lt;94% &rarr; Resus &rarr; Inform ED senior or
+                    Paeds team. Start severe pathway</b></div>
         </div>
         <div class="break"></div>
-        <!-- Red Flags -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Red Flags
-                </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
+                <h4 class="heading4">Red Flags <span class="nurse-symbol role">N</span></h4>
             </div>
             <div class="form-sub-container">
-                <div class="red-flags">
-                    <ul>
-                        <li>
-                            <input type="checkbox" id="rf-1">
-                            <label for="rf-1">Urticaria/facial or lip swelling <i>?Allergy/anaphylaxis</i></label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-2">
-                            <label for="rf-2">Anaphylaxis in the past</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-3">
-                            <label for="rf-3">Known syndromes <i>e.g. Down syndrome</i></label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-4">
-                            <label for="rf-4">Known airway issues <i>e.g. Laryngo-tracheo malacia</i></label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-5">
-                            <label for="rf-5">History of choking <i>?Foreign body aspiration</i></label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-6">
-                            <label for="rf-6">Sudden onset, no prodrome</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-7">
-                            <label for="rf-7">Toxic appearance/lethargic/mottled/reduced LOC</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="rf-8">
-                            <label for="rf-8">Not immunised <i>? Epiglottitis</i></label>
-                        </li>
-                        <li class="none">
-                            <input type="checkbox" id="no-red-flags">
-                            <label for="no-red-flags">None</label>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="red-flags">
+                    <li><input type="checkbox" id="rf-1"><label for="rf-1">Urticaria/facial or lip
+                            swelling<i>?Allergy/anaphylaxis</i></label></li>
+                    <li><input type="checkbox" id="rf-2"><label for="rf-2">Anaphylaxis in the past</label></li>
+                    <li><input type="checkbox" id="rf-3"><label for="rf-3">Known syndromes<i>e.g. Down
+                                syndrome</i></label></li>
+                    <li><input type="checkbox" id="rf-4"><label for="rf-4">Known airway issues<i>e.g. Laryngo-tracheo
+                                malacia</i></label></li>
+                    <li><input type="checkbox" id="rf-5"><label for="rf-5">History of choking<i>?Foreign body
+                                aspiration</i></label></li>
+                    <li><input type="checkbox" id="rf-6"><label for="rf-6">Sudden onset, no prodrome</label></li>
+                    <li><input type="checkbox" id="rf-7"><label for="rf-7">Toxic appearance/lethargic/mottled/reduced
+                            LOC</label></li>
+                    <li><input type="checkbox" id="rf-8"><label for="rf-8">Not immunised<i>? Epiglottitis</i></label>
+                    </li>
+                    <li class="none"><input type="checkbox" id="no-red-flags"><label for="no-red-flags">None</label>
+                    </li>
+                </ul>
             </div>
             <div class="half-break"></div>
             <div class="form-container">
                 <div class="form-sub-container">
-                    <h5 class="heading5 sub-title" style="color: #e27c7c">
-                        Red Flags Present <span style="font-weight:lighter">(Any)</span>
-                    </h5>
-                    <p><b>Senior Clinician review ASAP</b><i>(SMO/Senior RMO/NP/CNS) </i><input type="text" name=""
-                            id="" placeholder="Clinician Name"></p>
-                    <li>
-                        <label for="continue-bcb"> <input type="radio" name="redflag-present-action" id="continue-bcb">
-                            Continue Best Care Bundle</label>
-                    </li>
-                    <li>
-                        <label for="exit-bcb"> <input type="radio" name="redflag-present-action" id="exit-bcb">
-                            Exit Best Care Bundle<i> Remove Bundle from TP column on the
-                                whiteboard</i></label>
-                    </li>
+                    <h5 class="heading5 sub-title red-text">Red Flags Present<span
+                            style="font-weight:lighter">(Any)</span></h5>
+                    <p><b>Senior Clinician review ASAP </b><i>(SMO/Senior RMO/NP/CNS)</i> <input type="text" name="" id=""
+                            placeholder="Clinician Name"></p>
+                    <li><label for="continue-bcb"><input type="radio" name="redflag-present-action" id="continue-bcb">
+                            Continue Best Care Bundle</label></li>
+                    <li><label for="exit-bcb"><input type="radio" name="redflag-present-action" id="exit-bcb"> Exit Best
+                            Care Bundle<i>Remove Bundle from TP column on the whiteboard</i></label></li>
                     <p class="red-flags"><span class="textarea" role="textbox" contenteditable></span></p>
                 </div>
                 <div class="half-break"></div>
                 <div class="footer-notes">
-                    <p><b>No Red Flags:</b> Continue
-                        Best Care Bundle</span></p>
+                    <p><b>No Red Flags: </b>Continue Best Care Bundle</p>
                 </div>
             </div>
         </div>
         <div class="break"></div>
-        <!-- Mild Pathway -->
-        <div class="form-large-container" style="background-color:rgb(218, 228, 218)">
+        <div class="form-large-container" style="background-color:#dbe7db">
             <div class="title-container">
-                <h4 class="heading4">
-                    Mild Pathway
-                    <p>
-                        &#x2022; Minimise distressing interventions. Institute calming measures for all patients
-                        <br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet
-                        <br>&#x2022; Calculate Croup severity using assessment tool above and select management option
-                        <br>&#x2022; Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review
-                    </p>
+                <h4 class="heading4 mild-path">Mild Pathway <span class="nurse-symbol role">N</span>
+                    <p>&#x2022; Minimise distressing interventions. Institute calming measures for all
+                        patients<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long
+                        sheet<br>&#x2022; Calculate Croup severity using assessment tool above and select management
+                        option<br>&#x2022; Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review</p>
                 </h4>
-                <h5 class="nurse-symbol">
-                    <span class="hovertext" data-hover="Nurse to fill in">&#9679;</span>
-                </h5>
             </div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
-                    Start
-                </h5>
+                <h5 class="heading5 sub-title mild-path">Start</h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="" id=""></p>
                 </div>
                 <div class="pathway-right-container">
-                    <li>
-                        <label for="mi10"><input type="checkbox" name="" id="mi10"> Cough with no other signs &rarr;
-                            observe
-                            only</label>
-                    </li>
-                    <li>
-                        <label for="mi11"><input type="checkbox" name="" id="mi11"> Cough & other signs &rarr;
-                            Dexamethasone
-                            0.15mg/kg <i>(max 12mg) standing order</i></label>
-                    </li>
-                    <li>
-                        <label for="mi12"><input type="checkbox" name="" id="mi12"> Adrenaline Neb given en route &rarr;
-                            Dexamethasone 0.15mg/kg</label>
-                    </li>
+                    <li><label for="mi10"><input type="checkbox" name="" id="mi10"> Cough with no other signs &rarr;
+                            observe only</label></li>
+                    <li><label for="mi11"><input type="checkbox" name="" id="mi11"> Cough & other signs &rarr;
+                            Dexamethasone 0.15mg/kg<i>(max 12mg) standing order</i></label></li>
+                    <li><label for="mi12"><input type="checkbox" name="" id="mi12"> Adrenaline Neb given en route &rarr;
+                            Dexamethasone 0.15mg/kg</label></li>
                 </div>
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
-            <!-- Mild: 30 mins -->
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
-                    30 mins <span style="font-weight:100">after Rx started</span>
+                <h5 class="heading5 sub-title mild-path">30 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="mi-sev-t1" id=""></p>
-                    <p>PEWS: <input type="text" name="" id="" style="width: 3rem"></p>
+                    <p>PEWS: <input type="text" name="" id="" style="width:3rem"></p>
                 </div>
                 <div class="pathway-right-container">
                     <table class="pathway">
@@ -393,9 +251,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mi20"><input type="radio" name="mi-sev-1" id="mi20"> Mild </label>
-                                </li>
+                                <li><label for="mi20"><input type="radio" name="mi-sev-1" id="mi20"> Mild</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical review
@@ -403,56 +259,43 @@
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mi21"><input type="radio" name="mi-sev-1" id="mi21"> Moderate</label>
+                                <li><label for="mi21"><input type="radio" name="mi-sev-1" id="mi21"> Moderate</label>
                                 </li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mi21-2"><input type="checkbox" name="" id="mi21-2"> Moderate
-                                        pathway</label>
-                                </li>
+                                <li><label for="mi21-2"><input type="checkbox" name="" id="mi21-2"> Moderate
+                                        pathway</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mi21-3"><input type="checkbox" name="" id="mi21-3"> Inform
-                                        clinician</label>
-                                </li>
+                                <li><label for="mi21-3"><input type="checkbox" name="" id="mi21-3"> Inform
+                                        clinician</label></li>
                             </td>
                         </tr>
-                        <tr style="border: none;">
+                        <tr style="border:none">
                             <td>
-                                <li>
-                                    <label for="mi22"><input type="radio" name="mi-sev-1" id="mi22"> Severe</label>
-                                </li>
+                                <li><label for="mi22"><input type="radio" name="mi-sev-1" id="mi22"> Severe</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mi22-2"><input type="checkbox" name="" id="mi22-2"> Move to
-                                        resus</label>
-                                </li>
+                                <li><label for="mi22-2"><input type="checkbox" name="" id="mi22-2"> Move to
+                                        resus</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mi22-3"><input type="checkbox" name="" id="mi22-3"> Severe
-                                        pathway</label>
-                                </li>
+                                <li><label for="mi22-3"><input type="checkbox" name="" id="mi22-3"> Severe
+                                        pathway</label></li>
                             </td>
                         </tr>
                     </table>
                 </div>
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
-            <!-- Mild: 60 mins -->
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">
-                    60 mins <span style="font-weight:100">after Rx started</span>
+                <h5 class="heading5 sub-title mild-path">60 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="mi-sev-t1" id=""></p>
-                    <p>PEWS: <input type="text" name="" id="" style="width: 3rem"></p>
+                    <p>PEWS: <input type="text" name="" id="" style="width:3rem"></p>
                 </div>
                 <div class="pathway-right-container">
                     <table class="pathway">
@@ -461,9 +304,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mi30"><input type="radio" name="mi-sev-2" id="mi30"> Mild </label>
-                                </li>
+                                <li><label for="mi30"><input type="radio" name="mi-sev-2" id="mi30"> Mild</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical review
@@ -471,42 +312,31 @@
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mi31"><input type="radio" name="mi-sev-2" id="mi31"> Moderate</label>
+                                <li><label for="mi31"><input type="radio" name="mi-sev-2" id="mi31"> Moderate</label>
                                 </li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mi31-2"><input type="checkbox" name="" id="mi31-2"> Moderate
-                                        pathway</label>
-                                </li>
+                                <li><label for="mi31-2"><input type="checkbox" name="" id="mi31-2"> Moderate
+                                        pathway</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mi31-3"><input type="checkbox" name="" id="mi31-3"> Inform
-                                        clinician</label>
-                                </li>
+                                <li><label for="mi31-3"><input type="checkbox" name="" id="mi31-3"> Inform
+                                        clinician</label></li>
                             </td>
                         </tr>
-                        <tr style="border: none;">
+                        <tr style="border:none">
                             <td>
-                                <li>
-                                    <label for="mi32"><input type="radio" name="mi-sev-2" id="mi32"> Severe</label>
-                                </li>
+                                <li><label for="mi32"><input type="radio" name="mi-sev-2" id="mi32"> Severe</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mi32-2"><input type="checkbox" name="" id="mi32-2"> Move to
-                                        resus</label>
-                                </li>
+                                <li><label for="mi32-2"><input type="checkbox" name="" id="mi32-2"> Move to
+                                        resus</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mi32-3"><input type="checkbox" name="" id="mi32-3"> Severe
-                                        pathway</label>
-                                </li>
+                                <li><label for="mi32-3"><input type="checkbox" name="" id="mi32-3"> Severe
+                                        pathway</label></li>
                             </td>
                         </tr>
                     </table>
@@ -527,174 +357,125 @@
             </div>
         </div>
         <div class="break"></div>
-        <!-- Moderate Pathway -->
         <div class="form-large-container" style="background-color:#fef6e8">
             <div class="title-container">
-                <h4 class="heading4" style="color: rgb(230, 162, 36)">
-                    Moderate Pathway
-                    <p>
-                        &#x2022; All patients on the moderate pathway should get dexamthasone, unless already given
-                        <br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet
-                        <br>&#x2022; Calculate Croup severity using assessment tool above and select management
-                        option
-                        <br>&#x2022; Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review
-                    </p>
+                <h4 class="heading4 mod-path">Moderate Pathway <span class="nurse-symbol role">N</span>
+                    <p>&#x2022; All patients on the moderate pathway should get dexamthasone, unless already
+                        given<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet<br>&#x2022;
+                        Calculate Croup severity using assessment tool above and select management option<br>&#x2022;
+                        Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review</p>
                 </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
             </div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
-                    Start
-                </h5>
+                <h5 class="heading5 sub-title mod-path">Start</h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="mo-sev-t1" id=""></p>
-                    <p>PEWS: <input type="text" name="" id="" style="width: 3rem"></p>
+                    <p>PEWS: <input type="text" name="" id="" style="width:3rem"></p>
                 </div>
                 <div class="pathway-right-container">
-                    <li>
-                        <label for="mo10"><input type="radio" name="mo1x" id="mo10"> Cough & other signs &rarr;
-                            Dexamethasone
-                            0.15mg/kg <i>(max 12mg) standing order</i>
-                            <br><i>Unless already given</i>
-                        </label>
-                    </li>
-                    <li>
-                        <label for="mo12"><input type="radio" name="mo1x" id="mo12"> Adrenaline Neb given en route
-                            &rarr;
-                            Dexamethasone 0.15mg/kg
-                            <i class="indent-text"><br>Even if symptoms resolved, unless already given</i>
-                        </label>
-                    </li>
+                    <li><label for="mo10"><input type="radio" name="mo1x" id="mo10"> Cough & other signs &rarr;
+                            Dexamethasone 0.15mg/kg<i>(max 12mg) standing order</i><br><i>Unless already
+                                given</i></label></li>
+                    <li><label for="mo12"><input type="radio" name="mo1x" id="mo12"> Adrenaline Neb given en route
+                            &rarr; Dexamethasone 0.15mg/kg<i class="indent-text"><br>Even if symptoms resolved, unless
+                                already given</i></label></li>
                 </div>
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
-                    30 mins <span style="font-weight:100">after Rx started</span>
+                <h5 class="heading5 sub-title mod-path">30 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
-                <div class="form-sub-sub-container" style="width: 18.5%">
+                <div class="form-sub-sub-container" style="width:18.5%">
                     <p>Time: <input type="time" name="mi-sev-t1" id=""></p>
-                    <p>PEWS: <input type="text" name="" id="" style="width: 3rem"></p>
+                    <p>PEWS: <input type="text" name="" id="" style="width:3rem"></p>
                 </div>
-                <div style="width: 78%; padding-left: 0.5rem">
+                <div style="width:78%;padding-left:.5rem">
                     <table class="pathway">
                         <tr>
                             <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mo20"><input type="radio" name="mo-sev-1" id="mo20"> Mild </label>
-                                </li>
+                                <li><label for="mo20"><input type="radio" name="mo-sev-1" id="mo20"> Mild</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
-                            <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical
-                                review
+                            <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical review
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mo21"><input type="radio" name="mo-sev-1" id="mo21">
-                                        Moderate</label>
+                                <li><label for="mo21"><input type="radio" name="mo-sev-1" id="mo21"> Moderate</label>
                                 </li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td colspan="2">
-                                <li>
-                                    <label for="mo21-2"><input type="checkbox" name="" id="mo21-2"> Continue nursing
-                                        cares. If PEWS &gt; 8, immediate medical review</label>
-                                </li>
+                                <li><label for="mo21-2"><input type="checkbox" name="" id="mo21-2"> Continue nursing
+                                        cares. If PEWS &gt; 8, immediate medical review</label></li>
                             </td>
                         </tr>
-                        <tr style="border: none;">
+                        <tr style="border:none">
                             <td>
-                                <li>
-                                    <label for="mo22"><input type="radio" name="mo-sev-1" id="mo22"> Severe</label>
-                                </li>
+                                <li><label for="mo22"><input type="radio" name="mo-sev-1" id="mo22"> Severe</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mo22-2"><input type="checkbox" name="" id="mo22-2"> Move to
-                                        resus</label>
-                                </li>
+                                <li><label for="mo22-2"><input type="checkbox" name="" id="mo22-2"> Move to
+                                        resus</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mo22-3"><input type="checkbox" name="" id="mo22-3"> Severe
-                                        pathway</label>
-                                </li>
+                                <li><label for="mo22-3"><input type="checkbox" name="" id="mo22-3"> Severe
+                                        pathway</label></li>
                             </td>
                         </tr>
                     </table>
                 </div>
             </div>
-            <!-- Moderate 60 mins -->
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title" style="color: rgb(230, 162, 36)">
-                    60 mins <span style="font-weight:100">after Rx started</span>
+                <h5 class="heading5 sub-title mod-path">60 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="mi-sev-t1" id=""></p>
-                    <p>PEWS: <input type="text" name="" id="" style="width: 3rem"></p>
+                    <p>PEWS: <input type="text" name="" id="" style="width:3rem"></p>
                 </div>
-                <div style="width: 78%; padding-left: 0.5rem">
+                <div style="width:78%;padding-left:.5rem">
                     <table class="pathway">
                         <tr>
                             <th colspan="3">Croup Severity</th>
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mo30"><input type="radio" name="mo-sev-1" id="mo30"> Mild </label>
-                                </li>
+                                <li><label for="mo30"><input type="radio" name="mo-sev-1" id="mo30"> Mild</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
-                            <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical
-                                review
+                            <td colspan="2">Continue nursing cares. If discharge seems likely, initiate clinical review
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <li>
-                                    <label for="mo31"><input type="radio" name="mo-sev-1" id="mo31">
-                                        Moderate</label>
+                                <li><label for="mo31"><input type="radio" name="mo-sev-1" id="mo31"> Moderate</label>
                                 </li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td colspan="2">
-                                <li>
-                                    <label for="mo31-2"><input type="checkbox" name="" id="mo31-2"> Inform clinician
-                                        lack of response</label>
-                                </li>
-                                <li>
-                                    <label for="mo31-3"><input type="checkbox" name="" id="mo31-3"> Continue nursing
-                                        cares. If PEWS &gt; 8, immediate medical review</label>
-                                </li>
+                                <li><label for="mo31-2"><input type="checkbox" name="" id="mo31-2"> Inform clinician
+                                        lack of response</label></li>
+                                <li><label for="mo31-3"><input type="checkbox" name="" id="mo31-3"> Continue nursing
+                                        cares. If PEWS &gt; 8, immediate medical review</label></li>
                             </td>
                         </tr>
-                        <tr style="border: none;">
+                        <tr style="border:none">
                             <td>
-                                <li>
-                                    <label for="mo32"><input type="radio" name="mo-sev-1" id="mo32"> Severe</label>
-                                </li>
+                                <li><label for="mo32"><input type="radio" name="mo-sev-1" id="mo32"> Severe</label></li>
                             </td>
                             <td>&nbsp;&rarr;&nbsp;</td>
                             <td>
-                                <li>
-                                    <label for="mo32-2"><input type="checkbox" name="" id="mo32-2"> Move to
-                                        resus</label>
-                                </li>
+                                <li><label for="mo32-2"><input type="checkbox" name="" id="mo32-2"> Move to
+                                        resus</label></li>
                             </td>
                             <td>
-                                <li>
-                                    <label for="mo32-3"><input type="checkbox" name="" id="mo32-3"> Severe
-                                        pathway</label>
-                                </li>
+                                <li><label for="mo32-3"><input type="checkbox" name="" id="mo32-3"> Severe
+                                        pathway</label></li>
                             </td>
                         </tr>
                     </table>
@@ -715,170 +496,103 @@
             </div>
         </div>
         <div class="break"></div>
-        <div class="form-large-container" style="background-color:rgb(255, 238, 238)">
+        <div class="form-large-container" style="background-color:#fee">
             <div class="title-container">
-                <h4 class="heading4" style="color:#e27c7c">
-                    Severe Pathway
-                    <p>
-                        &#x2022; Minimise distressing interventions. Institute calming measures for all patients
-                        <br>&#x2022; High flow O<sub>2</sub> & nebulised adrenaline are AGP's
-                        <br>&#x2022; Perform in resus with negative pressure and full PPE
-                        <br>&#x2022; COVID PCR testing can add to distress. Check with senior doctor before swabbing
-                    </p>
+                <h4 class="heading4 red-text">Severe Pathway <span class="nurse-p-symbol role">CNS/NP</span> <span
+                        class="doctor-symbol">Dr</span>
+                    <p>&#x2022; Minimise distressing interventions. Institute calming measures for all
+                        patients<br>&#x2022; High flow O<sub>2</sub>& nebulised adrenaline are AGP's<br>&#x2022; Perform
+                        in resus with negative pressure and full PPE<br>&#x2022; COVID PCR testing can add to distress.
+                        Check with senior doctor before swabbing</p>
                 </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
             </div>
             <div class="form-sub-container">
-                <li>
-                    <label for="se10"><input type="checkbox" name="" id="se10"> 1:1000 Adrenaline nebulised
-                        0.5ml/kg
-                        <br><i>(max 5mg or 5ml). Repeat Q10 min as per medical staff</i></label>
-                </li>
-                <li>
-                    <label for="se11"><input type="checkbox" name="" id="se11"> Oral Dexamthasone 0.6mg/kg
-                        <i>(max 12mg)</i></label>
-                </li>
-                <li>
-                    <label for="se12"><input type="checkbox" name="" id="se12"> High flow O<sub>2</sub>
-                        <i>Aim SPO<sub>2</sub> > 94-98%</i></label>
-                </li>
+                <li><label for="se10"><input type="checkbox" name="" id="se10"> 1:1000 Adrenaline nebulised
+                        0.5ml/kg<br><i>(max 5mg or 5ml). Repeat Q10 min as per medical staff</i></label></li>
+                <li><label for="se11"><input type="checkbox" name="" id="se11"> Oral Dexamthasone 0.6mg/kg<i>(max
+                            12mg)</i></label></li>
+                <li><label for="se12"><input type="checkbox" name="" id="se12"> High flow O<sub>2</sub><i>Aim
+                            SPO<sub>2</sub>> 94-98%</i></label></li>
                 <table>
                     <tr>
-                        <td>If severe stridor recurs after treatment &nbsp;&nbsp;&nbsp;&nbsp;&rarr; </td>
+                        <td>If severe stridor recurs after treatment &nbsp;&nbsp;&nbsp;&nbsp;&rarr;</td>
                         <td>
-                            <li>
-                                <label for="se21"><input type="checkbox" name="" id="se21"> Discuss with PICU</label>
+                            <li><label for="se21"><input type="checkbox" name="" id="se21"> Discuss with PICU</label>
                             </li>
                         </td>
                     </tr>
                     <tr>
-                        <td style="width: 40%">If no improvement after initial treatment &rarr; </td>
+                        <td style="width:40%">If no improvement after initial treatment &rarr;</td>
                         <td>
                             <li><label for="se22"><input type="checkbox" name="" id="se22"> Consider alternative
                                     diagnosis</label></li>
                         </td>
                     </tr>
                 </table>
-                <li>
-
-                </li>
+                <li></li>
             </div>
         </div>
         <div class="break"></div>
-        <!-- Discharge/Admission -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Discharge/Admission
-                </h4>
-                <h5 class="nurse-symbol">
-                    &#9679;
-                </h5>
+                <h4 class="heading4">Discharge/Admission <span class="nurse-p-symbol role">CNS/NP</span> <span
+                        class="doctor-symbol">Dr</span></h4>
             </div>
             <div class="form-sub-container">
                 <h5 class="heading5 sub-title">Admission Criteria <i style="font-weight:lighter">Any of</i></h5>
-                <li>
-                    <label for="200"><input type="checkbox" name="" id="200"> Ongoing moderate symptoms &gt; 1 hr after
-                        Dexamathasone</label>
-                </li>
-                <li>
-                    <label for="201"><input type="checkbox" name="" id="201"> Ongoing O<sub>2</sub> requirement -
-                        SPO<sub>2</sub> &lt; 94%</label>
-                </li>
-                <li>
-                    <label for="202"><input type="checkbox" name="" id="202"> Significant co-morbidities</label>
-                </li>
-                <li>
-                    <label for="203"><input type="checkbox" name="" id="203"> &gt;1 doses of Adrenaline</label>
-                </li>
-                <li>
-                    <label for="204"><input type="checkbox" name="" id="204"> Transport or social concerns</label>
-                </li>
-                <li>
-                    <label for="205"><input type="checkbox" name="" id="205"> History or concern for poor
-                        compliance</label>
-                </li>
-                <b><br>&nbsp;&nbsp;If referral to PICU: for severe CATS or airway concern</b>
-                <li>
-                    <label for="206"><input type="checkbox" name="" id="206"> Ongoing Rx charted</label>
-                </li>
-                <li>
-                    <label for="207"><input type="checkbox" name="" id="207"> Transport arranged with transit
-                        care</label>
-                </li>
-                <li>
-                    <label for="208"><input type="checkbox" name="" id="208"> Medications for transit charted</label>
+                <li><label for="200"><input type="checkbox" name="" id="200"> Ongoing moderate symptoms &gt; 1 hr after
+                        Dexamathasone</label></li>
+                <li><label for="201"><input type="checkbox" name="" id="201"> Ongoing O<sub>2</sub>requirement -
+                        SPO<sub>2</sub>&lt; 94%</label></li>
+                <li><label for="202"><input type="checkbox" name="" id="202"> Significant co-morbidities</label></li>
+                <li><label for="203"><input type="checkbox" name="" id="203"> &gt;1 doses of Adrenaline</label></li>
+                <li><label for="204"><input type="checkbox" name="" id="204"> Transport or social concerns</label></li>
+                <li><label for="205"><input type="checkbox" name="" id="205"> History or concern for poor
+                        compliance</label></li><b><br>&nbsp;&nbsp;If referral to PICU: for severe CATS or airway
+                    concern</b>
+                <li><label for="206"><input type="checkbox" name="" id="206"> Ongoing Rx charted</label></li>
+                <li><label for="207"><input type="checkbox" name="" id="207"> Transport arranged with transit
+                        care</label></li>
+                <li><label for="208"><input type="checkbox" name="" id="208"> Medications for transit charted</label>
                 </li>
             </div>
             <div class="half-break"></div>
             <div class="form-sub-container">
                 <h5 class="heading5 sub-title">Discharge Criteria <i style="font-weight:lighter">Must meet all</i></h5>
-                <li>
-                    <label for="210"><input type="checkbox" name="" id="210"> Senior doctor/Paed team has reviewed
-                        patient
-                        and agrees with discharge plan</label>
-                </li>
-                <li>
-                    <label for="211"><input type="checkbox" name="" id="211"> No Rx received: Mild Croup
-                        throughout</label>
-                </li>
-                <li>
-                    <label for="212"><input type="checkbox" name="" id="212"> Dexamethasone given: Mild symptoms &gt;
-                        1h</label>
-                </li>
-                <li>
-                    <label for="213"><input type="checkbox" name="" id="213"> Adrenaline given: Mild symptoms &gt; 4
-                        hrs</label>
-                </li>
-                <li>
-                    <label for="214"><input type="checkbox" name="" id="214"> Access to transport</label>
-                </li>
-                <li>
-                    <label for="215"><input type="checkbox" name="" id="215"> Access to phone</label>
-                </li>
+                <li><label for="210"><input type="checkbox" name="" id="210"> Senior doctor/Paed team has reviewed
+                        patient and agrees with discharge plan</label></li>
+                <li><label for="211"><input type="checkbox" name="" id="211"> No Rx received: Mild Croup
+                        throughout</label></li>
+                <li><label for="212"><input type="checkbox" name="" id="212"> Dexamethasone given: Mild symptoms &gt;
+                        1h</label></li>
+                <li><label for="213"><input type="checkbox" name="" id="213"> Adrenaline given: Mild symptoms &gt; 4
+                        hrs</label></li>
+                <li><label for="214"><input type="checkbox" name="" id="214"> Access to transport</label></li>
+                <li><label for="215"><input type="checkbox" name="" id="215"> Access to phone</label></li>
             </div>
             <div class="half-break"></div>
             <div class="form-sub-container">
                 <h5 class="heading5 sub-title">Discharge Checklist</h5>
-                <li>
-                    <label for="220"><input type="checkbox" name="" id="220"> Patient information handout provided &
-                        explained</label>
-                </li>
-                <li>
-                    <label for="221"><input type="checkbox" name="" id="221"> Caregiver confidence in understanding
-                        affirmed -
-                        contact information provided</label>
-                </li>
-                <li>
-                    <label for="222"><input type="checkbox" name="" id="222"> COVID-19: Consider NPA prior to discharge
-                        to tailor
-                        public health and isolation requirements</label>
-                </li>
+                <li><label for="220"><input type="checkbox" name="" id="220"> Patient information handout provided &
+                        explained</label></li>
+                <li><label for="221"><input type="checkbox" name="" id="221"> Caregiver confidence in understanding
+                        affirmed - contact information provided</label></li>
+                <li><label for="222"><input type="checkbox" name="" id="222"> COVID-19: Consider NPA prior to discharge
+                        to tailor public health and isolation requirements</label></li>
             </div>
             <div class="half-break"></div>
             <div class="form-sub-container">
-                <h5 class="heading5 sub-title">Follow Up <i style="font-weight:lighter">- document this in the EDS</i>
-                </h5>
-                <i>See EDS proforma (link from EDS). Already pre-populated
-                    patient advice / information</i>
-                <li>
-                    <label for="230"><input type="checkbox" name="" id="230"> GP</label>
-                </li>
-                <li>
-                    <label for="231"><input type="checkbox" name="" id="231"> Follow up documented in EDS</label>
-                </li>
+                <h5 class="heading5 sub-title">Follow Up<i style="font-weight:lighter"> - document this in the EDS</i>
+                </h5><i>See EDS proforma (link from EDS). Already pre-populated patient advice / information</i>
+                <li><label for="230"><input type="checkbox" name="" id="230"> GP</label></li>
+                <li><label for="231"><input type="checkbox" name="" id="231"> Follow up documented in EDS</label></li>
             </div>
         </div>
         <div class="break"></div>
-        <!-- Forumlary/Medication Options -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">
-                    Formulary/Medication Options
-                    <p>Check allergy status and see medsafe for other text for full list of contraindications<br>All
-                        medication <b>must</b> be charted on MedChart </p>
+                <h4 class="heading4">Formulary/Medication Options<p>Check allergy status and see medsafe for other text
+                        for full list of contraindications<br>All medication <b>must</b> be charted on MedChart</p>
                 </h4>
             </div>
             <div class="form-sub-container">
@@ -892,27 +606,19 @@
                         <th style="width:45%">Notes</th>
                     </tr>
                     <tr>
-                        <td>Dexamethasone (1mg/mL)
-                            <br><b>Mild Croup</b>
-                        </td>
+                        <td>Dexamethasone (1mg/mL)<br><b>Mild Croup</b></td>
                         <td>0.15mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>
-                        <td class="notes">Standing order
-                            <br>Max dose 12mg
-                        </td>
+                        <td class="notes">Standing order<br>Max dose 12mg</td>
                     </tr>
                     <tr>
                         <td><b>Moderate and severe Croup</b></td>
                         <td>0.6mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>
-                        <td class="notes">Standing order
-                            <br>Max dose 12mg
-                            <br>Consider IV/IM Dexamethasone in
-                            extremis or if the child is vomiting / not
-                            tolerating oral Rx
-                        </td>
+                        <td class="notes">Standing order<br>Max dose 12mg<br>Consider IV/IM Dexamethasone in extremis or
+                            if the child is vomiting / not tolerating oral Rx</td>
                     </tr>
                     <tr>
                         <td>Prednisolone (5mg/mL)</td>
@@ -926,8 +632,7 @@
                         <td>1mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>
-                        <td class="notes">Made up to 5 mL with 0.9% Saline.
-                            AGP. Perform in negative pressure room</td>
+                        <td class="notes">Made up to 5 mL with 0.9% Saline. AGP. Perform in negative pressure room</td>
                     </tr>
                 </table>
             </div>

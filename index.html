@@ -13,7 +13,7 @@
         <!-- Inclusion/Exclusion Container -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">Inclusion/Exclusion <span class="nurse-symbol role">N</span></h4>
+                <h4 class="heading4">Inclusion/Exclusion <span class="nurse-symbol role">RN</span></h4>
             </div>
             <div class="form-container" style="width:47.5%">
                 <div class="form-sub-container">
@@ -44,7 +44,7 @@
         <!-- Nursing Assessment Container -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">Nursing Assessment <span class="nurse-symbol role">N</span></h4>
+                <h4 class="heading4">Nursing Assessment <span class="nurse-symbol role">RN</span></h4>
             </div>
             <div class="form-sub-container">
                 <table class="nursing-assessment-table">
@@ -76,7 +76,7 @@
         <!-- Croup Severity Assessment Tool -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">Croup Severity Assessment Tool <span class="nurse-symbol role">N</span>
+                <h4 class="heading4">Croup Severity Assessment Tool <span class="nurse-symbol role">RN</span>
                     <p>Default to higher severity if any doubt</p>
                 </h4>
             </div>
@@ -158,8 +158,8 @@
             <div class="half-break"></div>
             <div class="form-sub-container cat"><b>Initial assessment:</b>
                 <ul>
-                    <li><input type="radio" name="initial-a" id="i-mi"><label for="i-mi">Mild</label></li>
-                    <li><input type="radio" name="initial-a" id="i-mo"><label for="i-mo">Moderate</label></li>
+                    <li class="mild"><input type="radio" name="initial-a" id="i-mi"><label for="i-mi">Mild</label></li>
+                    <li class="mod"><input type="radio" name="initial-a" id="i-mo"><label for="i-mo">Moderate</label></li>
                     <li class="severe"><input type="radio" name="initial-a" id="i-se"><label for="i-se">Severe</label>
                     </li>
                 </ul>
@@ -169,11 +169,13 @@
                     Paeds team. Start severe pathway</b></div>
         </div>
         <div class="break"></div>
+        <!-- Red Flags Container -->
         <div class="form-large-container">
             <div class="title-container">
-                <h4 class="heading4">Red Flags <span class="nurse-symbol role">N</span></h4>
+                <h4 class="heading4">Red Flags <span class="nurse-symbol role">RN</span></h4>
             </div>
             <div class="form-sub-container">
+                <!-- List of red flags -->
                 <ul class="red-flags">
                     <li><input type="checkbox" id="rf-1"><label for="rf-1">Urticaria/facial or lip
                             swelling <i>?Allergy/anaphylaxis</i></label></li>
@@ -197,13 +199,13 @@
             <div class="form-container">
                 <div class="form-sub-container">
                     <h5 class="heading5 sub-title red-text">Red Flags Present<span
-                            style="font-weight:lighter">(Any)</span></h5>
+                            style="font-weight:lighter"> (Any)</span></h5>
                     <p><b>Senior Clinician review ASAP </b><i>(SMO/Senior RMO/NP/CNS)</i> <input type="text" name="" id=""
                             placeholder="Clinician Name"></p>
                     <li><label for="continue-bcb"><input type="radio" name="redflag-present-action" id="continue-bcb">
                             Continue Best Care Bundle</label></li>
                     <li><label for="exit-bcb"><input type="radio" name="redflag-present-action" id="exit-bcb"> Exit Best
-                            Care Bundle<i>Remove Bundle from TP column on the whiteboard</i></label></li>
+                            Care Bundle <i>Remove Bundle from TP column on the whiteboard</i></label></li>
                     <p class="red-flags"><span class="textarea" role="textbox" contenteditable></span></p>
                 </div>
                 <div class="half-break"></div>
@@ -213,9 +215,10 @@
             </div>
         </div>
         <div class="break"></div>
+        <!-- Mild Pathway container -->
         <div class="form-large-container" style="background-color:#dbe7db">
             <div class="title-container">
-                <h4 class="heading4 mild-path">Mild Pathway <span class="nurse-symbol role">N</span>
+                <h4 class="heading4 mild-path">Mild Pathway <span class="nurse-symbol role">RN</span>
                     <p>&#x2022; Minimise distressing interventions. Institute calming measures for all
                         patients<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long
                         sheet<br>&#x2022; Calculate Croup severity using assessment tool above and select management
@@ -223,6 +226,7 @@
                 </h4>
             </div>
             <div class="form-sub-container">
+                <!-- Mild: start -->
                 <h5 class="heading5 sub-title mild-path">Start</h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="" id=""></p>
@@ -231,13 +235,15 @@
                     <li><label for="mi10"><input type="checkbox" name="" id="mi10"> Cough with no other signs &rarr;
                             observe only</label></li>
                     <li><label for="mi11"><input type="checkbox" name="" id="mi11"> Cough & other signs &rarr;
-                            Dexamethasone 0.15mg/kg<i>(max 12mg) standing order</i></label></li>
+                            Dexamethasone 0.15mg/kg <i>(max 12mg) standing order, unless
+                                already had steroids pre-hospital (e.g Prednisolone)</i></label></li>
                     <li><label for="mi12"><input type="checkbox" name="" id="mi12"> Adrenaline Neb given en route &rarr;
                             Dexamethasone 0.15mg/kg</label></li>
                 </div>
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
+                <!-- Mild: 30 mins -->
                 <h5 class="heading5 sub-title mild-path">30 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
@@ -291,6 +297,7 @@
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
+                <!-- Mild: 60mins -->
                 <h5 class="heading5 sub-title mild-path">60 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
@@ -357,16 +364,18 @@
             </div>
         </div>
         <div class="break"></div>
+        <!-- Moderate Pathway container -->
         <div class="form-large-container" style="background-color:#fef6e8">
             <div class="title-container">
-                <h4 class="heading4 mod-path">Moderate Pathway <span class="nurse-symbol role">N</span>
+                <h4 class="heading4 mod-path">Moderate Pathway <span class="nurse-symbol role">RN</span>
                     <p>&#x2022; All patients on the moderate pathway should get dexamethasone, unless already
-                        given<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet<br>&#x2022;
+                        given, or they had other steroids pre-hospital (e.g Prednisolone)<br>&#x2022; Review every 30 minutes. Record vital signs on nursing long sheet<br>&#x2022;
                         Calculate Croup severity using assessment tool above and select management option<br>&#x2022;
                         Calculate PEWS - if &gt; 8 at any time &rarr; immediate medical review</p>
                 </h4>
             </div>
             <div class="form-sub-container">
+                <!-- Moderate: start -->
                 <h5 class="heading5 sub-title mod-path">Start</h5>
                 <div class="form-sub-sub-container">
                     <p>Time: <input type="time" name="mo-sev-t1" id=""></p>
@@ -374,8 +383,8 @@
                 </div>
                 <div class="pathway-right-container">
                     <li><label for="mo10"><input type="radio" name="mo1x" id="mo10"> Cough & other signs &rarr;
-                            Dexamethasone 0.15mg/kg<i>(max 12mg) standing order</i><br><i>Unless already
-                                given</i></label></li>
+                            Dexamethasone 0.15mg/kg <i>(max 12mg) standing order</i><br><i>Unless already
+                                given, or they had other steroids pre-hospital (e.g Prednisolone)</i></label></li>
                     <li><label for="mo12"><input type="radio" name="mo1x" id="mo12"> Adrenaline Neb given en route
                             &rarr; Dexamethasone 0.15mg/kg<i class="indent-text"><br>Even if symptoms resolved, unless
                                 already given</i></label></li>
@@ -383,6 +392,7 @@
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
+                <!-- Moderate: 30 mins -->
                 <h5 class="heading5 sub-title mod-path">30 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container" style="width:18.5%">
@@ -432,6 +442,7 @@
             </div>
             <div class="arrow-block"><span class="arrow-down"></span></div>
             <div class="form-sub-container">
+                <!-- Moderate: 60 mins -->
                 <h5 class="heading5 sub-title mod-path">60 mins <span style="font-weight:100">after Rx started</span>
                 </h5>
                 <div class="form-sub-sub-container">
@@ -496,6 +507,7 @@
             </div>
         </div>
         <div class="break"></div>
+        <!-- Severe Pathway container -->
         <div class="form-large-container" style="background-color:#fee">
             <div class="title-container">
                 <h4 class="heading4 red-text">Severe Pathway <span class="nurse-p-symbol role">CNS/NP</span> <span
@@ -508,7 +520,7 @@
             </div>
             <div class="form-sub-container">
                 <li><label for="se10"><input type="checkbox" name="" id="se10"> 1:1000 Adrenaline nebulised
-                        0.5ml/kg<br><i>(max 5mg or 5ml). Repeat Q10 min as per medical staff</i></label></li>
+                        0.5ml/kg <i>(max 5mg or 5ml). Repeat Q10 min as per medical staff</i></label></li>
                 <li><label for="se11"><input type="checkbox" name="" id="se11"> Oral Dexamthasone 0.6mg/kg <i>(max
                             12mg)</i></label></li>
                 <li><label for="se12"><input type="checkbox" name="" id="se12"> High flow O<sub>2</sub> <i>Aim
@@ -533,6 +545,7 @@
             </div>
         </div>
         <div class="break"></div>
+        <!-- Discharge/Admission container -->
         <div class="form-large-container">
             <div class="title-container">
                 <h4 class="heading4">Discharge/Admission <span class="nurse-p-symbol role">CNS/NP</span> <span
@@ -578,12 +591,11 @@
                         affirmed - contact information provided</label></li>
                 <li><label for="222"><input type="checkbox" name="" id="222"> COVID-19: Consider NPA prior to discharge
                         to tailor public health and isolation requirements</label></li>
-                <li><label for="223"><input type="checkbox" name="" id="223"> GP</label></li>
-                <li><label for="224"><input type="checkbox" name="" id="224"> Follow up documented in EDS</label></li>
-        
+                <li><label for="223"><input type="checkbox" name="" id="223"> GP or home care nurse follow up - follow up documented in EDS</label></li>
             </div>
         </div>
         <div class="break"></div>
+        <!-- Formulary/Medication container -->
         <div class="form-large-container">
             <div class="title-container">
                 <h4 class="heading4">Formulary/Medication Options<p>Check allergy status and see medsafe for other text
@@ -601,14 +613,14 @@
                         <th style="width:45%">Notes</th>
                     </tr>
                     <tr>
-                        <td>Dexamethasone (1mg/mL)<br><b>Mild Croup</b></td>
+                        <td><b>Mild Croup</b><br>Dexamethasone (1mg/mL)</td>
                         <td>0.15mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>
                         <td class="notes">Standing order<br>Max dose 12mg</td>
                     </tr>
                     <tr>
-                        <td><b>Moderate and severe Croup</b></td>
+                        <td><b>Moderate and severe Croup</b><br>Dexamethasone (1mg/mL)</td>
                         <td>0.6mg/kg</td>
                         <td>PO</td>
                         <td>STAT</td>

@@ -366,6 +366,14 @@ body {
     padding: 0 .3rem .1rem;
 }
 
+.cat .mod input[type=radio]:checked+label {
+    background-color: #d7a86b;
+}
+
+.cat .mild input[type=radio]:checked+label {
+    background-color: #3f6e3f;
+}
+
 .side-header {
     text-align: right;
     font-weight: 100;
@@ -465,11 +473,11 @@ body {
 /* Pathways syles */
 
 .mild-path {
-    color: #2b702b !important;
+    color: #3f6e3f !important;
 }
 
 .mod-path {
-    color: #e6a224 !important;
+    color: #d7a86b !important;
 }
 
 .pathway th {
